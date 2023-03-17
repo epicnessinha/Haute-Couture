@@ -10,7 +10,7 @@ export const LooksOfTheMonth = () => {
   return (
     <Container>
       <h1>Looks of the Month</h1>
-      {/* Add your content here */}
+      {/* Add the content here */}
     </Container>
   );
 };

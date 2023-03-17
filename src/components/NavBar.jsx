@@ -9,26 +9,31 @@ const Container = styled(motion.nav)`
   left: 0;
   height: 100%;
   width: 250px;
-  background-color: #333;
+  background-color: black;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
+  
 `;
 
 const StyledLink = styled(NavLink)`
   color: #fff;
   text-decoration: none;
-  font-size: 1.2rem;
-  margin: 15px 0;
+  font-size: 1.3rem;
+  margin: 25px 0;
   transition: color 0.3s;
+  padding-left: 25px;
+  font-family: Bradley Hand;
+ 
+  
 
   &:hover {
-    color: #f0c040;
+    color: pink;
   }
 
   &.active {
-    color: #f0c040;
+    color:"";
   }
 `;
 
