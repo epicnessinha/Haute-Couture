@@ -1,0 +1,37 @@
+.title {
+  font-family: Bradley Hand;
+  font-size:4rem;
+  display:flex;
+
+}
+  .image-container {
+    width: 400px; /* Largura desejada */
+    height: 700px; /* Altura desejada */
+    overflow: hidden; /* Esconde o conteúdo que exceder o container */
+    position:relative; /* Necessário para posicionar corretamente a imagem */
+    border-radius: 5%;
+  }
+
+  .image-fit {
+    width: 100%; /* Ajusta a largura da imagem para a largura do container */
+    height: 100%; /* Ajusta a altura da imagem para a altura do container */
+    object-fit: cover; /* Mantém a proporção da imagem e garante que preencha todo o container */
+    object-position: center; /* Centraliza a imagem dentro do container */
+    position: absolute; /* Permite posicionar a imagem corretamente no container */
+  }
+
+  .image-row {
+    display: flex; /* Configura o container como um container flexível */
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha quando não houver espaço suficiente */
+    justify-content: center; /* Centraliza os itens na linha */
+    align-items: center; /* Centraliza os itens verticalmente */
+  }
+  
+  .image-row-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Altura mínima para ocupar toda a altura da janela do navegador */
+  }
+  
+  /* ADICIONAR MEDIA QUERIES */

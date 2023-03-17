@@ -10,7 +10,7 @@ export const Designers = () => {
   return (
     <Container>
       <h1>Trending Designers</h1>
-      {/* Add your content here */}
+      {/* Add the content here */}
     </Container>
   );
 };

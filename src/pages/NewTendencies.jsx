@@ -10,7 +10,7 @@ export const NewTendencies = () => {
   return (
     <Container>
       <h1>New Tendencies</h1>
-      {/* Add your content here */}
+      {/* Add the content here */}
     </Container>
   );
 };
